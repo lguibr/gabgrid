@@ -1,44 +1,62 @@
-# Material UI - Next.js example in TypeScript
+# React Template Builder
 
-## How to use
+This project is a React-based Template Builder that allows users to create templates with messages. The application allows users to add, edit, and remove messages from a template. Each message has a role (User, System, or Assistant) and content.
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
+## Table of Contents
 
-<!-- #default-branch-switch -->
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Technologies Used](#technologies-used)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+## Features
+
+- Add, edit, and remove messages from a template
+- Validation with Yup and React Hook Form
+- Material-UI components for a polished user interface
+
+## Installation
+
+To install this project on your local machine, follow these steps:
+
+1. Install dependencies:
+
+   ```sh
+    yarn
+   ```
+
+2. Run dev server:
 
 ```sh
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/material-next-ts
-cd material-next-ts
+ yarn dev
 ```
 
-Install it and run:
+## Usage
 
-```sh
-npm install
-npm run dev
-```
+- Fill in the template title and description.
+- Add messages by clicking the "Add Message" button.
+- Select a role (User, System, or Assistant) and enter the content for each message.
+- To remove a message, click the "X" button next to the corresponding message.
+- Click the "Submit" button to submit the form.
 
-or:
+## Technologies Used
 
-<!-- #default-branch-switch -->
+- React
+- React Hook Form
+- Yup
+- Material-UI
+- TypeScript
 
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/material-next-ts)
+## Contributing
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/material-next-ts)
+1. Fork the project
+2. Create your feature branch (git checkout -b feature/YourFeature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin FEA/YourFeature)
+5. Create a new Pull Request
 
-## The idea behind the example
+## License
 
-The project uses [Next.js](https://github.com/vercel/next.js), which is a framework for server-rendered React apps.
-It includes `@mui/material` and its peer dependencies, including [Emotion](https://emotion.sh/docs/introduction), the default style engine in Material UI v5. If you prefer, you can [use styled-components instead](https://mui.com/material-ui/guides/interoperability/#styled-components).
-
-## The link component
-
-The [example folder](https://github.com/mui/material-ui/tree/HEAD/examples/material-next-ts) provides an adapter for the use of [Next.js's Link component](https://nextjs.org/docs/api-reference/next/link) with MUI.
-More information [in the documentation](https://mui.com/material-ui/guides/routing/#next-js).
-
-## What's next?
-
-<!-- #default-branch-switch -->
-
-You now have a working example project.
-You can head back to the documentation, continuing browsing it from the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+This project is licensed under the MIT License.
